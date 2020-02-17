@@ -66,7 +66,7 @@ You can also avoid the creation of the *conanfile.txt* completely and directly d
 
 .. code-block:: bash
 
-    $ conan install cmake/3.16.3 -g=virtualenv
+    $ conan install cmake/3.16.3@ -g=virtualenv
 
 Activate the virtual environment, and now you can run ``cmake --version`` to check that you have the installed CMake in path.
 
